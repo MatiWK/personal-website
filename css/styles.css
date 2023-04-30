@@ -72,8 +72,10 @@ font-family: 'Montserrat', sans-serif;
 }
 
 .about-me-heading{
-    font-size: 7rem;
+    font-size: 5.5vw;
 }
+
+
 
 .about-me-paragraph{
     margin: 10px auto 50px;
@@ -89,7 +91,7 @@ hr {
 }
 
 .technolopgies-heading{
-    font-size: 3rem;
+    font-size: 3vw;
 }
 
 .col-lg-6{
@@ -97,9 +99,15 @@ hr {
 }
 
 .technologies-img{
-    height: 200px;
+    height: 20vw;
     margin: 30px auto; 
 }
+
+/* @media (max-width: 768px) {
+    .technologies-img{
+        height: 10%;
+    }
+} */
 
 /* -------------------------------------------- SECTION PORTFOLIO -------------------------------------------------------------*/
 
@@ -109,11 +117,14 @@ hr {
 
 .projects-heading{
     margin-top: 5%;
-    font-size: 5rem;
+    font-size: 4vw;
     font-weight: bold;
 
 }
 
+.projects-text{
+    font-size: 3vw;
+}
 
 .projects-img{
     width: 50%;
@@ -130,7 +141,12 @@ hr {
 
 .contact-me-heading{
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 3vw;
+}
+
+.contact-me-text{
+    font-size: 2vw;
+
 }
 
 .socialmedia{
@@ -160,3 +176,13 @@ hr {
 .grow:hover { 
     transform: scale(1.1); 
 }
+
+/* @media (max-width: 420px){
+    .about-me-heading{
+        font-size: 2rem;
+    }
+
+    .technolopgies-heading{
+        font-size: 2rem;
+    }
+} */
