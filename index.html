@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Sacramento&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&display=swap" rel="stylesheet">
+
+    <!-- fonts awesome -->
+  <script src="https://kit.fontawesome.com/1731a9f8c1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section id="heading">
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <a style="color: white;" class="navbar-brand" href="#"><i class="fa-solid fa-house"></i></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-me">About me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-me">Contact me</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="gretting-div">
+            <h1 class="greetings">
+                Hi I'm Mati
+            </h1>
+            <h3 class="undergreting">
+                a Web Developer
+            </h3>
+            <img src="images\profilePic.png" class="profile-pic" alt="img oF me">
+        </div>
+                
+    </section>
+    <section id="about-me">
+        <div class="about-me-text">
+            <h1 class="about-me-heading">Who am I?</h1>
+            <p class="about-me-paragraph">My name is Mateusz Weltrowski-Knopik, I'm 21 years old and I study Computer Science and Econometrics at the University of Gdańsk. </p>
+        </div>
+        <hr>
+
+        <h1 class="technolopgies-heading">Technologies</h1>
+
+        <div class="container" >
+            <div class="row ">
+
+                <div class="col-lg-6">
+                    <h3>MongoDB</h3>
+                    <img class="technologies-img grow" src="images\mongodb_thumbnail.webp" alt="MongoDB-img">
+                </div>  
+                  
+                <div class="col-lg-6">
+                    <h3>Node Express.js</h3>
+                    <img class="technologies-img grow" src="images\Node.js_logoicon.png" alt="node-img">
+                </div>
+
+                <div class="col-lg-6">
+                    <h3>React</h3>
+                    <img class="technologies-img grow" src="images\React-icon.svg.png" alt="react-img">
+                </div>
+
+                <div class="col-lg-6">
+                    <h3>Bootstrap</h3>
+                    <img class="technologies-img grow" src="images\Bootstrap_logo.svg.png" alt="Bootstrap-img">
+                </div>
+              
+            </div>
+        </div>
+
+    </section>
+    <section id="portfolio">
+        <h1 class="projects-heading">My projects</h1>
+
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <h3>App to make notes created with React </h3>
+                <img src="images\projects-notes-once-again.png" class="projects-img" alt="...">
+              </div>
+
+              <div class="carousel-item">
+                <h3>Blog website created with node, ejs and MongoDB</h3>
+                <img src="images\projects-blog.png" class="projects-img" alt="...">
+
+              </div>
+              <div class="carousel-item">
+                <h3>To-do list app created with node, ejs and MongoDB </h3>
+                <img  src="images\projects-todo-final.png" class="projects-img"  alt="react-img">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+    <section id="contact-me">
+        <div>
+            <h1 class="contact-me-heading">Check out more or Contact Me ^-^</h1>
+            <h3>via one of the options below</h3>
+        </div>
+        <!-- <div>
+          <a class="btn btn-light btn-lg contact-me-btn"  href="mailto:mweltrowskik@gmail.com">E-mail</a>
+        </div> -->
+        <div class='socialmedia grow'>
+            <a href="mailto:mweltrowskik@gmail.com" class="socialmedia-icons "><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/MatiWK" class="socialmedia-icons "><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.facebook.com/mati.weltrowskiknopik" class="socialmedia-icons"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/mateusz-weltrowski-knopik-7740aa274/" class="socialmedia-icons"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/matiweltrowskik/" class="socialmedia-icons"><i class="fa-brands fa-instagram"></i></a>
+
+        </div>
+    <p class="copyrights">© Copyright Mateusz Weltrowski-Knopik 2023</p>
+
+    </section>
+</body>
+</html>

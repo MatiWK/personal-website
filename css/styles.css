@@ -1,0 +1,162 @@
+/*  Body  */
+
+body{
+background: #002D62;
+color: white;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+/* -------------------------------------------- Heading section -------------------------------------------- */
+
+#heading{
+    padding: 3% 15%;
+}
+
+
+
+.nav-item{
+    padding: 0px 25px;
+
+}
+
+.nav-link{
+    font-size: 1.2rem;
+    color: white
+}
+
+/* img{
+    height: 200px;
+    width: 200px;
+} */
+
+.navbar-brand{
+    font-size: 2rem;
+}
+
+
+.gretting-div{
+    text-align: center;
+
+}
+
+.greetings{
+    margin-top: 160px;
+    font-family: 'Sacramento', cursive;
+    font-size: 7rem;
+    font-weight: bold;
+}
+
+.undergreting{
+    font-size: 2.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.profile-pic{
+    width: 200px;
+    border-radius: 50%;
+    margin: 5%;
+}
+
+/* -------------------------------------------- SECTION ABOUT ME -------------------------------------------------------------*/
+
+#about-me{
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 100px;
+}
+
+.about-me-text{
+    display: inline-block;
+    max-width: 614px;
+}
+
+.about-me-heading{
+    font-size: 7rem;
+}
+
+.about-me-paragraph{
+    margin: 10px auto 50px;
+    line-height: 1.5;
+    max-width: 100%;
+}
+
+hr {
+    border: 8px dotted #EAF6F6;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+
+.technolopgies-heading{
+    font-size: 3rem;
+}
+
+.col-lg-6{
+    margin-top: 75px;
+}
+
+.technologies-img{
+    height: 200px;
+    margin: 30px auto; 
+}
+
+/* -------------------------------------------- SECTION PORTFOLIO -------------------------------------------------------------*/
+
+#portfolio{
+    text-align: center;
+}
+
+.projects-heading{
+    margin-top: 5%;
+    font-size: 5rem;
+    font-weight: bold;
+
+}
+
+
+.projects-img{
+    width: 50%;
+}
+
+
+/* -------------------------------------------- SECTION Contect Me -------------------------------------------------------------*/
+
+#contact-me{
+    text-align: center;
+    background-color: #1a1a1a;
+    padding: 50px 100px;
+}
+
+.contact-me-heading{
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.socialmedia{
+    margin: 100px 0;
+}
+
+.socialmedia-icons{
+    padding: 0 3%;
+    color: white;
+    font-size: 2rem;
+}
+
+.socialmedia-icons:hover{
+    /* font-size: 3rem; */
+    color: #002D62;
+}
+
+.copyrights{
+    margin: 2%;
+}
+
+.grow{ 
+    transition: all .2s ease-in-out; 
+    
+}
+    
+.grow:hover { 
+    transform: scale(1.1); 
+}
